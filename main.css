@@ -21,7 +21,8 @@ body {
     border-radius : 25px;
 }
 #All-Calculation-Buttons {
-    padding-left : 490px;
+    margin-right: 300px;
+    margin-left: 490px;
 }
 .CalcButton {
     background-color: #71697b;
