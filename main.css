@@ -1,0 +1,11 @@
+body {
+    background-color: #57515f;
+    margin : 0;
+}
+
+.Header {
+    background-color: #71697b;
+    color : #ffffff;
+    font-size : 40px;
+    font-family: 'Bebas Neue', cursive;
+}
