@@ -4,6 +4,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <title>Online Calculator</title>
+    <link type="image/png" sizes="32x32" rel="icon" href="Graphics/Icon.png">
     <link href="main.css" rel="stylesheet" />
 </head>
 <body>
@@ -11,7 +12,7 @@
         <h1>ONLINE CALCULATOR</h1>
     </div>
     <div id="OutputScreen">
-        <h3>0</h3>
+        <h3 id="OutputLabel">0</h3>
     </div>
     <div id="All-Calculation-Buttons">
         <button class="CalcButton" type="button" id="SevenNumb">7</button>
@@ -29,11 +30,12 @@
         <button class="CalcButton" type="button" id="ThreeNumb">3</button>
         <button class="CalcButton" type="button" id="MinusSign">-</button>
         <br />
-        <button class="CalcButton" type="button" id="ClearAll">C</button>
         <button class="CalcButton" type="button" id="Period">.</button>
         <button class="CalcButton" type="button" id="ZeroNumb">0</button>
         <button class="CalcButton" type="button" id="PlusSign">+</button>
+        <button class="CalcButton" type="button" id="EqualsTo">=</button>
+
     </div>
-    <script src="main.js"></script>
 </body>
+<script src="main.js"></script>
 </html>
